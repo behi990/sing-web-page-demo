@@ -1,0 +1,65 @@
+@import "../fonts/uicons-regular-rounded/css/uicons-regular-rounded.css";
+@import "../css/font-awesome.min.css";
+
+@font-face {
+    font-family: 'shabnam-400';
+    src: url("../fonts/shabnam-400/shabnam-400.eot"), url("../fonts/shabnam-400/shabnam-400.ttf"), url("../fonts/shabnam-400/shabnam-400.woff"), url("../fonts/shabnam-400/shabnam-400.woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'fontAwesome';
+    src: url("../fonts/fontAwesome/fontawesome-webfont.svg"), url("../fonts/fontAwesome/fontawesome-webfont.ttf"), url("../fonts/fontAwesome/fontawesome.otf"), url("../fonts/fontAwesome/fontawesome-webfont.woff"), url("../fonts/fontAwesome/fontawesome-webfont.woff2"), url("../fonts/fontAwesome/fontawesome-webfont.eot");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'yekan';
+    src: url("../fonts/Yekan/Yekan.svg"), url("../fonts/Yekan/Yekan.eot"), url("../fonts/Yekan/Yekan.woff"), url("../fonts/Yekan/Yekan.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+a {
+    color: #000000;
+    font-weight: bolder;
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+.header h1 {
+    float: left;
+}
+
+.nav {
+    display: inline !important;
+    text-align: right;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+.nav ul li a{
+    color: rgba(255,255,255,0.5);
+}
+.header{
+    background-color: #545b62;
+}
