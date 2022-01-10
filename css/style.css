@@ -2,6 +2,13 @@
 @import "../css/font-awesome.min.css";
 
 @font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'shabnam-400';
     src: url("../fonts/shabnam-400/shabnam-400.eot"), url("../fonts/shabnam-400/shabnam-400.ttf"), url("../fonts/shabnam-400/shabnam-400.woff"), url("../fonts/shabnam-400/shabnam-400.woff2");
     font-style: normal;
@@ -30,11 +37,16 @@
 }
 
 body {
-    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    font-family: Raleway, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway, sans-serif;
+    font-weight: bolder !important;
 }
 
 a {
-    color: #000000;
+    color: #ffffff;
     font-weight: bolder;
     text-decoration: none !important;
 }
@@ -43,8 +55,9 @@ li {
     list-style: none;
 }
 
-.header h1 {
+.top-menu h2 {
     float: left;
+    padding: 10px 0;
 }
 
 .nav {
@@ -57,9 +70,79 @@ li {
     padding: 0 15px;
 }
 
-.nav ul li a{
-    color: rgba(255,255,255,0.5);
+.nav ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.5s ease-in-out;
 }
-.header{
+
+.nav ul li a:hover {
+    color: #ffffff;
+}
+
+.header {
     background-color: #545b62;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-menu {
+    padding: 25px;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-family: Raleway;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-gray {
+    background-color: #ffffff;
+    color: #444 !important;
+}
+
+.btn-blue {
+    background-color: #3cadd4;
+    color: #ffffff !important;
+}
+
+.btn-dark {
+    background-color: #1d2124;
+    color: #ffffff !important;
+}
+
+.btn-big {
+    font-size: 22px;
+    padding: 17px 35px;
+}
+
+.banner-content {
+    color: #ffffff;
+    text-align: center;
+    padding: 130px 0;
+}
+
+.banner-content h2 {
+    font-size: 60px;
+    line-height: 120px;
+}
+
+.banner-content p {
+    font-size: 22px;
+    line-height: 120px;
 }
