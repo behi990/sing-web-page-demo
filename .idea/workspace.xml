@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0118aada-e502-4761-9c43-8ed35026ef5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="0118aada-e502-4761-9c43-8ed35026ef5d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PHP Toplearn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -37,7 +34,7 @@
       <updated>1641416154588</updated>
       <workItem from="1641416157625" duration="2320000" />
       <workItem from="1641679296852" duration="4860000" />
-      <workItem from="1641796971229" duration="17635000" />
+      <workItem from="1641796971229" duration="17979000" />
     </task>
     <servers />
   </component>
@@ -45,6 +42,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="407" y="65" key="FileChooserDialogImpl" timestamp="1641828925352">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="407" y="65" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1641828925352" />
     <state x="259" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1641807671477">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
